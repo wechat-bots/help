@@ -15,7 +15,6 @@ describe('wechat-help', function() {
     var res = {
       reply: function (result) {
         expect(result.content).to.include(help.help);
-        expect(result.content).to.include(help.name);
         done();
       }
     };
