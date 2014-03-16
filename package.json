@@ -1,6 +1,6 @@
 {
   "name": "wechat-help",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "generate help message of used wechat-bot",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,11 @@
     "type": "git",
     "url": "https://github.com/rogerz/wechat-help"
   },
-  "keywords": ["wechat","wechat-bot","help"],
+  "keywords": [
+    "wechat",
+    "wechat-bot",
+    "help"
+  ],
   "author": "Rogerz Zhang <rogerz.zhang@gmail.com>",
   "license": "BSD-3-Clause",
   "bugs": {
@@ -24,7 +28,7 @@
     "grunt": "~0.4.1",
     "grunt-mocha-cli": "~1.1.0",
     "grunt-complexity": "~0.1.3",
-    "grunt-cli": "~0.1.9"
-
+    "grunt-cli": "~0.1.9",
+    "wechat-bot": "^0.1.1"
   }
 }
