@@ -1,6 +1,6 @@
 {
   "name": "wechat-help",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "generate help message of used wechat-bot",
   "main": "index.js",
   "scripts": {
